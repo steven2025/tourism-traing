@@ -2,8 +2,8 @@
 // 部署腾讯云函数后，把下面两个地址改成你的 API 网关地址。
 const API = {
   // 部署腾讯云 API 网关后，把下面两个地址替换成你的公网接口地址。
-  submitResult: "https://your-api-gateway-url/submitResult",
-  getClassStats: "https://your-api-gateway-url/getClassStats"
+  submitResult: "https://1311686407-lt026fsrhz.ap-guangzhou.tencentscf.com",
+  getClassStats: "https://1311686407-074lcayymp.ap-guangzhou.tencentscf.com"
 };
 
 const state = {
