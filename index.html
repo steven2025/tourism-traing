@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>旅游 HR 培训需求评估教学小程序</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">旅游 HR 培训需求评估</div>
+    <nav class="nav">
+      <button data-page="login" class="nav-btn active">登录</button>
+      <button data-page="jobs" class="nav-btn">岗位选择</button>
+      <button data-page="evaluation" class="nav-btn">培训评估</button>
+      <button data-page="myResult" class="nav-btn">我的结果</button>
+      <button data-page="classStats" class="nav-btn">全班统计</button>
+      <button data-page="help" class="nav-btn">使用说明</button>
+    </nav>
+  </header>
+
+  <main id="mainArea" class="main-area"></main>
+
+  <div id="modal" class="modal hidden">
+    <div class="modal-card">
+      <h2 id="modalTitle"></h2>
+      <p id="modalText"></p>
+      <div class="modal-actions">
+        <button id="closeModal" class="secondary-btn">返回</button>
+        <button id="confirmRead" class="primary-btn">我已阅读，进入评估</button>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">适用于旅游业人力资源管理课程教学 | GitHub Pages 静态前端 + 腾讯云函数教学版</footer>
+  <script src="app.js"></script>
+</body>
+</html>
