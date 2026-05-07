@@ -3,7 +3,7 @@
 const API = {
   // 部署腾讯云 API 网关后，把下面两个地址替换成你的公网接口地址。
   submitResult: "https://1311686407-lt026fsrhz.ap-guangzhou.tencentscf.com",
-  getClassStats: "https://1311686407-074lcayymp.ap-guangzhou.tencentscf.com"
+  getClassStats: "https://1311686407-9ecp6gdg9f.ap-guangzhou.tencentscf.com"
 };
 
 const state = {
